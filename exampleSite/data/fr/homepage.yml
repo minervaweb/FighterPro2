@@ -3,7 +3,7 @@ banner:
   enable: true
   title: "Believe in Technology, Make the change"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "images/watch.png"
+  image: "images/products/p2.webp"
   button:
     enable: true
     label: "Browse All Products"
@@ -13,7 +13,7 @@ banner:
 features:
   enable: true
   title: "Our Core Features"
-  image: "images/watch-2.png"
+  image: "images/products/p1.webp"
 
   # feature at the left of the image
   left_side:
@@ -52,7 +52,7 @@ features:
 ############################# promo ############################
 promo:
   enable: true
-  image: "images/watch.png"
+  image: "images/products/p2.webp"
   title: "Designed by professional , the benefit for creative gigs"
   content:
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
@@ -66,7 +66,7 @@ about_product:
   title: "Why Choose Apple Watch"
   items:
     # about product item loop
-    - image: "images/showcase/showcase-4.png"
+    - image: "images/products/p4.webp"
       title: "Lorem ipsum dolor sit amet."
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
@@ -78,7 +78,7 @@ about_product:
         link: "#/"
 
     # about product item loop
-    - image: "images/showcase/showcase-3.png"
+    - image: "images/products/p3.webp"
       title: "Lorem ipsum dolor sit amet."
       content:
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
@@ -97,7 +97,7 @@ products:
 ################################## Subscription ###################
 subscription:
   enable: true
-  bg_image: "images/call-to-action.jpg"
+  bg_image: "images/call-to-action.webp"
   title: "Get Product Updates"
   content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder: "Your Email Address Here"

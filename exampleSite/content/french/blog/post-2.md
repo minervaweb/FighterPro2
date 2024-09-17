@@ -1,7 +1,7 @@
 ---
-title: "Pourquoi acheter une montre intelligente."
+title: "Why You Should Buy a Smart Watch."
 date: 2019-10-17T11:22:16+06:00
-image: "images/showcase/showcase-2.png"
+image: "images/showcase/showcase-2.webp"
 description : "this is a meta description"
 draft: false
 ---

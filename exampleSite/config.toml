@@ -17,7 +17,7 @@ unsafe = true
 
 # CSS Plugins
 [[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+link = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Road+Rage&display=swap"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -36,15 +36,15 @@ link = "plugins/slick/slick.min.js"
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/logo/logo.png"
 logo_width = "100px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Minerva Web"
 # currency
-currency = "$"
+currency = " Dh "
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "#"
 
 # Preloader
 [params.preloader]
