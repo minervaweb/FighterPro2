@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable: true
-  #  title: "Believe in Technology, Make the change"
+  title: "Fighter Pro 2 🥊<br>Changing the game."
   #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
   image: "images/video/video.mp4"
   button:
