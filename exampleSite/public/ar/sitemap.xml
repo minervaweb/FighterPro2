@@ -2,6 +2,204 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/vex/examplesite/ar/products/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/products/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/products/product-1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/product-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/product-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/products/product-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/blog/post-3/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/blog/post-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/blog/post-3/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/products/product-2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/product-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/product-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/products/product-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/blog/post-1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/blog/post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/blog/post-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/blog/post-1/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/products/product-4/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/product-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/product-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/products/product-4/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/blog/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/blog/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/blog/post-4/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/blog/post-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/blog/post-4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/blog/post-4/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/blog/post-2/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/blog/post-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/blog/post-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/products/product-3/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/product-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/product-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/products/product-3/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vex/examplesite/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -19,21 +217,21 @@
                 href="http://localhost:1313/vex/examplesite/ar/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/vex/examplesite/ar/</loc>
+    <loc>http://localhost:1313/vex/examplesite/ar/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/vex/examplesite/"
+                href="http://localhost:1313/vex/examplesite/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/vex/examplesite/fr/"
+                href="http://localhost:1313/vex/examplesite/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar-ar"
-                href="http://localhost:1313/vex/examplesite/ar/"
+                href="http://localhost:1313/vex/examplesite/ar/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/vex/examplesite/ar/tags/</loc>
@@ -51,6 +249,40 @@
                 rel="alternate"
                 hreflang="ar-ar"
                 href="http://localhost:1313/vex/examplesite/ar/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/privacy-policy/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/ar/terms-conditions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/terms-conditions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar-ar"
+                href="http://localhost:1313/vex/examplesite/ar/terms-conditions/"
                 />
   </url>
 </urlset>
