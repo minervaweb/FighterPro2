@@ -49,6 +49,20 @@ features:
       icon: "tf-ion-ios-cart-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
+############################# Videos ############################
+videos:
+  enable: true
+  title: "Our customers"
+  image: "images/products/p1.webp"
+
+  # videos 1
+  # videos 2
+  # videos 3
+  # videos 4
+  # videos 5
+  # videos 6
+
+
 ############################# promo ############################
 promo:
   enable: true
