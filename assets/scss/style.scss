@@ -366,12 +366,6 @@ Gallery start
   .block {
     padding: 20px;
     position: relative;
-
-    &:hover .gallery-overlay {
-      transform: scale(1);
-      opacity: 1;
-      border-radius: 0;
-    }
   }
 
   .gallery-overlay {
@@ -757,4 +751,31 @@ textarea.form-control {
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+// pop up
+.popup {
+  display: none;
+  position: fixed;
+  top: -100px; /* Start above the viewport */
+  left: 0;
+  font-size: 18px;
+  width: 100%;
+  height: 50px; /* Shorter height */
+  padding: 10px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 20px; /* Center text vertically */
+  z-index: 1000;
+  transition: top 0.5s; /* Smooth transition */
+}
+.close-btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #f44336;
+  border: none;
+  border-radius: 3px;
+  margin-left: 40px;
 }

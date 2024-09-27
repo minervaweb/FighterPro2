@@ -49,3 +49,14 @@ $(window).on('load', function () {
   });
 
 })(jQuery);
+
+// adding pop up for free livraison 
+$(document).ready(function() {
+  // Show the error popup and slide it down
+  $("#errorPopup").css("top", "0").fadeIn();
+
+  // Close button functionality
+  $(".close-btn").on("click", function() {
+    $("#errorPopup").fadeOut();
+  });
+});
