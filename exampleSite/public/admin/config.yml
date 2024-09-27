@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main  # Your repository's default branch
+
+media_folder: "static/images/products" # Media files will be stored in the repo under static/images/uploads
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "english/products"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Images", name: "images", widget: "list", field: { label: "Image", name: "image", widget: "image" } }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Discount Price", name: "discount_price", widget: "string" }
+      - { label: "Colors", name: "colors", widget: "list" }
+      - { label: "Sizes", name: "sizes", widget: "list" }
+      - { label: "Button Link", name: "button_link", widget: "string" }
+      - { label: "Draft", name: "draft", widget: "boolean" }
+      - { label: "Body", name: "body", widget: "markdown" }
