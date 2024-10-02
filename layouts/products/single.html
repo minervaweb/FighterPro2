@@ -66,41 +66,6 @@
       </div>
     </div>
   </div>
-<script>
-    function sendWhatsAppMessage(event) {
-        event.preventDefault(); // Prevent form submission
-
-        // Clear previous error message
-        const errorMessageDiv = document.getElementById('errorMessage');
-        errorMessageDiv.innerText = '';
-
-        // Get values from the form
-        const name = document.getElementById('name').value.trim();
-        const number = document.getElementById('number').value.trim();
-        const address = document.getElementById('address').value.trim();
-
-        // Validate inputs
-        if (!name || !number || !address) {
-            errorMessageDiv.innerText = 'Please fill in all fields.';
-            return;
-        }
-
-        // Validate number: should be 10 digits long and numeric
-        const numberPattern = /^\d{10}$/;
-        if (!numberPattern.test(number)) {
-            errorMessageDiv.innerText = 'Please enter a valid 10-digit phone number.';
-            return;
-        }
-
-        // Create the WhatsApp message
-        const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}`;
-        const whatsappNumber = '212624182004'; // Replace with your WhatsApp number
-        const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
-
-        // Open WhatsApp link in a new tab
-        window.open(whatsappLink, '_blank');
-    }
-</script>
 </section>
 
 {{ end }}

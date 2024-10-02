@@ -218,41 +218,6 @@
       </div>
     </div>
   </div>
-<script>
-    function sendWhatsAppMessage(event) {
-        event.preventDefault(); 
-
-        
-        const errorMessageDiv = document.getElementById('errorMessage');
-        errorMessageDiv.innerText = '';
-
-        
-        const name = document.getElementById('name').value.trim();
-        const number = document.getElementById('number').value.trim();
-        const address = document.getElementById('address').value.trim();
-
-        
-        if (!name || !number || !address) {
-            errorMessageDiv.innerText = 'Please fill in all fields.';
-            return;
-        }
-
-        
-        const numberPattern = /^\d{10}$/;
-        if (!numberPattern.test(number)) {
-            errorMessageDiv.innerText = 'Please enter a valid 10-digit phone number.';
-            return;
-        }
-
-        
-        const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}`;
-        const whatsappNumber = '212624182004'; 
-        const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
-
-        
-        window.open(whatsappLink, '_blank');
-    }
-</script>
 </section>
 
 <footer>
