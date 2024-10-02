@@ -37,7 +37,7 @@ link = "plugins/slick/slick.min.js"
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo/logo.png"
-logo_width = "100px"
+logo_width = "30px"
 # Meta data
 description = "This is meta description"
 author = "Minerva Web"

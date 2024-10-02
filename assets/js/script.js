@@ -50,13 +50,16 @@ $(window).on('load', function () {
 
 })(jQuery);
 
-// adding pop up for free livraison 
+// this is pop up notification 
 $(document).ready(function() {
-  // Show the error popup and slide it down
-  $("#errorPopup").css("top", "0").fadeIn();
+  // Show the section after 2 seconds
+  setTimeout(function() {
+    $('#hiddenSection').fadeIn();
+  }, 2000);
 
-  // Close button functionality
-  $(".close-btn").on("click", function() {
-    $("#errorPopup").fadeOut();
+  // Hide the section when the button is clicked
+  $('#hideButton').click(function() {
+    $('#hiddenSection').fadeOut();
   });
 });
+
