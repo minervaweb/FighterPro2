@@ -61,7 +61,6 @@
     <div class="hidden-section" id="hiddenSection">
         <button class="btn btn-danger hide-button" id="hideButton">x</button>
         <p>This is a hidden section!</p>
-        <p>This is a hidden section!</p>
     </div>
 
 
@@ -192,16 +191,68 @@
         <s class="price"> Dh 30.00</s>
         </p>
         
-        
-        <a class="btn btn-main mb-5" href="http://localhost:1313/vex/examplesite">Buy</a>
-        
-        
 
         <div class="content"><p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</p>
 </div>
+
+        
+        <div class="col-lg-8">
+          <h2 class="font-weight-bold mb-4">Order Now!</h2>
+          <div id="errorMessage" class="error"></div>
+          <form id="clientForm" onsubmit="sendWhatsAppMessage(event)" class="row">
+            <div class="col-lg-6 mb-3">
+              <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <input type="text" id="number" class="form-control mb-2" id="email" name="email" placeholder="Enter your 10-digit phone number" required pattern="\d{10}">
+            </div>
+            <div class="col-12 mb-3">
+              <input type="text" id="address" class="form-control mb-2" placeholder="Enter Your Adress" required>
+            </div>
+            <div class="col-12 text-right">
+              <button type="submit" class="btn btn-main btn-main-sm">Send Now</button>
+            </div>
+          </form>
+        </div>
+
       </div>
     </div>
   </div>
+<script>
+    function sendWhatsAppMessage(event) {
+        event.preventDefault(); 
+
+        
+        const errorMessageDiv = document.getElementById('errorMessage');
+        errorMessageDiv.innerText = '';
+
+        
+        const name = document.getElementById('name').value.trim();
+        const number = document.getElementById('number').value.trim();
+        const address = document.getElementById('address').value.trim();
+
+        
+        if (!name || !number || !address) {
+            errorMessageDiv.innerText = 'Please fill in all fields.';
+            return;
+        }
+
+        
+        const numberPattern = /^\d{10}$/;
+        if (!numberPattern.test(number)) {
+            errorMessageDiv.innerText = 'Please enter a valid 10-digit phone number.';
+            return;
+        }
+
+        
+        const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}`;
+        const whatsappNumber = '212624182004'; 
+        const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+
+        
+        window.open(whatsappLink, '_blank');
+    }
+</script>
 </section>
 
 <footer>
