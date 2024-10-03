@@ -784,3 +784,51 @@ input, button {
   margin-bottom: 10px;
 }
 */
+
+/* make the logo center in mobile */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Default for larger screens */
+    align-items: center; /* Center items vertically */
+}
+
+
+.navbar-brand {
+    flex: 1; /* Allow the logo to take up available space */
+    text-align: center; /* Center the logo text */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row; /* Keep items in a row on mobile */
+        justify-content: center; /* Center items */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Align the toggle button to the right */
+    }
+
+    .collapse {
+        width: 100%; /* Ensure collapse takes full width */
+        display: flex; /* Make it a flex container */
+        justify-content: flex-end; /* Align items to the right */
+    }
+
+    .navbar-nav {
+        display: flex; /* Keep nav items in a row */
+        flex-direction: row; /* Keep nav items horizontal */
+        align-items: center; /* Center nav items vertically */
+    }
+
+    .nav-item {
+        margin-left: 10px; /* Optional: space between nav items */
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar-nav {
+        margin-left: 0; /* Reset margin for larger screens */
+    }
+}

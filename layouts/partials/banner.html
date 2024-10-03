@@ -12,7 +12,11 @@
                 <div class="row">
                     <div class="col-lg-12 text-center" >
                         <h1 class="font-weight-bold mb-4 font-size-60">{{ .title | markdownify }}</h1>
+			{{ if .button.enable }}
+			{{ with .button }}
                         <a class="btn btn-main" href="{{ .button.link|absLangURL}}">Discover</a>
+			{{ end }}
+    			{{ end }}
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
             </div> <!-- end of container -->
