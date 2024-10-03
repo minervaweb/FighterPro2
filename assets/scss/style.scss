@@ -810,18 +810,6 @@ input, button {
         margin-left: auto; /* Align the toggle button to the right */
     }
 
-    .collapse {
-        width: 100%; /* Ensure collapse takes full width */
-        display: flex; /* Make it a flex container */
-        justify-content: flex-end; /* Align items to the right */
-    }
-
-    .navbar-nav {
-        display: flex; /* Keep nav items in a row */
-        flex-direction: row; /* Keep nav items horizontal */
-        align-items: center; /* Center nav items vertically */
-    }
-
     .nav-item {
         margin-left: 10px; /* Optional: space between nav items */
     }
