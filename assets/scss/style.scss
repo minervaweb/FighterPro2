@@ -753,6 +753,7 @@ textarea.form-control {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+
 /* pop up */
 .hidden-section {
   background-color: red;
@@ -785,38 +786,38 @@ input, button {
 }
 */
 
-/* make the logo center in mobile */
 
-
+/* make the logo center in mobile 
 .navbar {
     display: flex;
-    justify-content: space-between; /* Default for larger screens */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between; 
+    align-items: center;
 }
 
 
 .navbar-brand {
-    flex: 1; /* Allow the logo to take up available space */
-    text-align: center; /* Center the logo text */
+    flex: 1; 
+    text-align: center; 
 }
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: row; /* Keep items in a row on mobile */
-        justify-content: center; /* Center items */
+        flex-direction: row;
+        justify-content: center;
     }
 
     .navbar-toggler {
-        margin-left: auto; /* Align the toggle button to the right */
+        margin-left: auto;
     }
 
     .nav-item {
-        margin-left: 10px; /* Optional: space between nav items */
+        margin-left: 10px;
     }
 }
 
 @media (min-width: 769px) {
     .navbar-nav {
-        margin-left: 0; /* Reset margin for larger screens */
+        margin-left: 0; 
     }
 }
+*/
