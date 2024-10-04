@@ -184,22 +184,60 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
+
+        
         <h1 class="mb-4" id="product-name">Apple Watch</h1>
-        <p><strong>Colors: </strong>Black, White, Gray</p>
-        <p><strong>Sizes: </strong>Small, Medium, Large</p>
+
+        
         <p class="price py-4"> Dh 25.00
         <s class="price"> Dh 30.00</s>
         </p>
+
+        
+
+
         
 
         <div class="content"><p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</p>
 </div>
 
         
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <h2 class="font-weight-bold mb-4">Order Now!</h2>
           <div id="errorMessage" class="error"></div>
           <form id="clientForm" onsubmit="sendWhatsAppMessage(event)" class="row">
+            <div class="col-lg-12 mb-3">
+              
+              <div class="row">
+                <div class="col-6 form-group">
+                  <label for="colors"><strong>Colors:</strong></label>
+                  <select id="colors" class="form-control mb-3">
+                    
+                    <option value="black">Black</option>
+                    
+                    <option value="white">White</option>
+                    
+                    <option value="gray">Gray</option>
+                    
+                  </select>
+                </div>
+                
+                
+                <div class="col-6 form-group">
+                  <label for="sizes"><strong>Sizes:</strong></label>
+                  <select id="sizes" class="form-control mb-3">
+                    
+                    <option value="small">Small</option>
+                    
+                    <option value="medium">Medium</option>
+                    
+                    <option value="large">Large</option>
+                    
+                  </select>
+                </div>
+              </div>
+              
+            </div>
             <div class="col-lg-6 mb-3">
               <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name" required>
             </div>

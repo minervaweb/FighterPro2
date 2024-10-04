@@ -14,12 +14,18 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
+
+        <!-- this is the title of the product -->
         <h1 class="mb-4" id="product-name">{{ .Title }}</h1>
-        {{ with .Params.colors }}<p><strong>Colors: </strong>{{ delimit . ", " | title}}</p>{{ end }}
-        {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
+
+        <!-- this is paragraph for the product -->
         <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
+
+        <!-- this is the select list for the product -->
+
+
         <!--{{ if site.Params.snipcart.enable }}
         <button class="snipcart-add-item btn btn-main mb-5" 
           data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
@@ -44,10 +50,34 @@
         <div class="content">{{.Content}}</div>
 
         <!-- this is the form -->
-        <div class="col-lg-8">
+        <div class="col-lg-12">
           <h2 class="font-weight-bold mb-4">Order Now!</h2>
           <div id="errorMessage" class="error"></div>
           <form id="clientForm" onsubmit="sendWhatsAppMessage(event)" class="row">
+            <div class="col-lg-12 mb-3">
+              {{ with .Params.colors }}
+              <div class="row">
+                <div class="col-6 form-group">
+                  <label for="colors"><strong>Colors:</strong></label>
+                  <select id="colors" class="form-control mb-3">
+                    {{ range . }}
+                    <option value="{{ . | lower }}">{{ . | title }}</option>
+                    {{ end }}
+                  </select>
+                </div>
+                {{ end }}
+                {{ with .Params.sizes }}
+                <div class="col-6 form-group">
+                  <label for="sizes"><strong>Sizes:</strong></label>
+                  <select id="sizes" class="form-control mb-3">
+                    {{ range . }}
+                    <option value="{{ . | lower }}">{{ . | title }}</option>
+                    {{ end }}
+                  </select>
+                </div>
+              </div>
+              {{ end }}
+            </div>
             <div class="col-lg-6 mb-3">
               <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name" required>
             </div>

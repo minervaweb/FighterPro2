@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 # Check if a message is provided
 if [ $# -gt 0 ]; then

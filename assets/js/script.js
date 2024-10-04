@@ -76,6 +76,8 @@ function sendWhatsAppMessage(event) {
   const number = document.getElementById('number').value.trim();
   const address = document.getElementById('address').value.trim();
   const productName = document.getElementById('product-name').innerText.trim(); // get the product name
+  const color = document.getElementById('colors').value; // get selected color
+  const size = document.getElementById('sizes').value; // get selected size
 
   // Validate inputs
   if (!name || !number || !address) {
@@ -91,7 +93,7 @@ function sendWhatsAppMessage(event) {
   }
 
   // Create the WhatsApp message
-  const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}, Product: ${encodeURIComponent(productName)}`;
+  const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}, Product: ${encodeURIComponent(productName)}, Color: ${encodeURIComponent(color)}, Size: ${encodeURIComponent(size)}`;
   const whatsappNumber = '212624182004'; // Replace with your WhatsApp number
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
