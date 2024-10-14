@@ -12,9 +12,9 @@ public_folder: "/images/" # The src attribute for uploaded media will begin with
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Display name in the UI
-    folder: "exampleSite/content/english/blog" # Path to the folder where blog posts are stored
+    folder: "content/english/blog" # Path to the folder where blog posts are stored
     create: true # Allow users to create new documents
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template
+    slug: "post-{{number}}" # Filename template
     fields: # Fields for each document
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
