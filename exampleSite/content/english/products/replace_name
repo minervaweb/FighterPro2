@@ -1,0 +1,16 @@
+#!/bin/bash
+
+: <<'MAIN'
+This script will replace all the images with the number in the
+file name + extension = .webp
+MAIN
+
+# Loop through each Markdown file in the current directory
+for file in product-*.md; do
+  # Extract the number from the file name
+  number=$(echo "$file" | grep -o '[0-9]*')
+
+  # Use sed to find and replace the specific lines
+  # Adjust the regex if necessary to match your format exactly
+  sed -i -E "s|images/products/p([0-9]+)\.webp|images/products/p$number.webp|g" "$file"
+done

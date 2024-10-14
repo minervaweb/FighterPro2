@@ -1,0 +1,4 @@
+#!/bin/bash
+for file in *.mp4; do
+    ffmpeg -i "$file" -c:v copy -an "noaudio_${file}"
+done

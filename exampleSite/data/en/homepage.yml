@@ -54,12 +54,9 @@ videos:
   enable: true
   title: "Our customers"
   image: "images/products/p1.webp"
-  video_1: "images/video/video_1.mp4"
-  video_2: "images/video/video_1.mp4"
-  video_3: "images/video/video_1.mp4"
-  video_4: "images/video/video_1.mp4"
-  video_5: "images/video/video_1.mp4"
-  video_6: "images/video/video_1.mp4"
+  video_1: "images/video/reel_1.mp4"
+  video_2: "images/video/reel_2.mp4"
+  video_3: "images/video/reel_3.mp4"
 
 
 ############################# promo ############################

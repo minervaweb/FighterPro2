@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{- if $data.homepage.videos.enable }}
 {{- with $data.homepage.videos }}
@@ -13,9 +13,9 @@
       </div>
     </div>
 
-    <div class="row d-flex justify-content-center">
-      <div class="col-12 col-md-8 d-flex justify-content-center"> <!-- Centering the carousel -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="min-width: 345px; max-width: 345px;">
+    <div class="row">
+      <div class="col-12 col-md-6 d-flex justify-content-center mb-4"> <!-- Video section -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="min-width: 100%; max-width: 100%;">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleControls" data-slide-to="1"></li>
@@ -33,7 +33,7 @@
             </div>
             <div class="carousel-item">
               <iframe class="embed-responsive-item" width="100%" height="315"
-                src="https://www.youtube.com/embed/8SYIksrZeu4"
+                src="{{ .video_2 | absURL }}"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -42,7 +42,7 @@
             </div>
             <div class="carousel-item">
               <iframe class="embed-responsive-item" width="100%" height="315"
-                src="https://www.youtube.com/embed/8SYIksrZeu4"
+                src="{{ .video_3 | absURL }}"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -61,6 +61,13 @@
           </a>
 
         </div>
+      </div>
+
+      <div class="col-12 col-md-6">
+      <h3>{{ .title | markdownify }}</h3>
+        <br>
+        <p>Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.<br>Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.Your second paragraph goes here. Additional information can be placed here as well.</p>
+        <p>Your second paragraph goes here. Additional information can be placed here as well.</p>
       </div>
     </div>
   </div>

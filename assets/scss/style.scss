@@ -743,7 +743,7 @@ textarea.form-control {
 }
 
 #carouselExampleControls .carousel-item iframe {
-  border: 2px solid #c80000; /* Example: adds a border */
+  border: 2px solid black; /* Example: adds a border */
   border-radius: 8px; /* Example: rounds the corners */
   max-height: 560px;
   min-height: 560px
@@ -771,53 +771,3 @@ textarea.form-control {
   top: 15px;
 }
 
-
-
-/* form of product
-input, button {
-  margin-bottom: 10px;
-  padding: 10px;
-  width: 100%;
-  max-width: 400px;
-}
-.error {
-  color: red;
-  margin-bottom: 10px;
-}
-*/
-
-
-/* make the logo center in mobile 
-.navbar {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-}
-
-
-.navbar-brand {
-    flex: 1; 
-    text-align: center; 
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .navbar-toggler {
-        margin-left: auto;
-    }
-
-    .nav-item {
-        margin-left: 10px;
-    }
-}
-
-@media (min-width: 769px) {
-    .navbar-nav {
-        margin-left: 0; 
-    }
-}
-*/

@@ -100,4 +100,3 @@ function sendWhatsAppMessage(event) {
   // Open WhatsApp link in a new tab
   window.open(whatsappLink, '_blank');
 }
-
