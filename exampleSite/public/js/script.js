@@ -84,6 +84,7 @@ function sendWhatsAppMessage(event) {
   const productName = document.getElementById('product-name').innerText.trim(); // get the product name
   const color = document.getElementById('colors').value; // get selected color
   const size = document.getElementById('sizes').value; // get selected size
+  const productUrl = window.location.href; // Get the current page URL
 
   // Validate inputs
   if (!name || !number || !address) {
@@ -99,10 +100,20 @@ function sendWhatsAppMessage(event) {
   }
 
   // Create the WhatsApp message
-  const message = `Name: ${encodeURIComponent(name)}, Number: ${encodeURIComponent(number)}, Address: ${encodeURIComponent(address)}, Product: ${encodeURIComponent(productName)}, Color: ${encodeURIComponent(color)}, Size: ${encodeURIComponent(size)}`;
+  const message = createWhatsAppMessage(name, number, address, productName, color, size, productUrl);
   const whatsappNumber = '212624182004'; // Replace with your WhatsApp number
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   // Open WhatsApp link in a new tab
   window.open(whatsappLink, '_blank');
+}
+
+function createWhatsAppMessage(name, number, address, productName, color, size, productUrl) {
+  return `Name: ${encodeURIComponent(name)}%0A` +
+         `Number: ${encodeURIComponent(number)}%0A` +
+         `Address: ${encodeURIComponent(address)}%0A` +
+         `Product: ${encodeURIComponent(productName)}%0A` +
+         `Color: ${encodeURIComponent(color)}%0A` +
+         `Size: ${encodeURIComponent(size)}%0A` +
+         `Product Link: ${encodeURIComponent(productUrl)}`;
 }
