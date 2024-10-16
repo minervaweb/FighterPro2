@@ -7,7 +7,7 @@
         <h1 class="font-weight-bold">{{.Title}}</h1>
       </div>
       {{ range (where .Site.RegularPages "Section" "products") }}
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="col-lg-3 col-md-2 col-sm-6 col-6 mb-2"> <!-- Added col-6 for extra small screens -->
         <a href="{{ .Permalink }}" class="gallery-popup">
           <div class="block">
             <div class="gallery-overlay">
@@ -16,8 +16,8 @@
           </div>
         </a>
         <div class="product-info">
-        <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
-        <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+          <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
+          <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
           {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
           </p>
         </div>

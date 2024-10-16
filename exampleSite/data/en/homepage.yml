@@ -61,7 +61,7 @@ videos:
 
 ############################# promo ############################
 promo:
-  enable: true
+  enable: false
   image: "images/products/p2.webp"
   title: "Designed by professional , the benefit for creative gigs"
   content:
@@ -72,7 +72,7 @@ promo:
 
 ############################# About Product #######################
 about_product:
-  enable: true
+  enable: false
   title: "Why Choose Apple Watch"
   items:
     # about product item loop
