@@ -2,8 +2,7 @@
 title: "test product Watch"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
+  - "images/products/p14.webp"
   - "images/products/p1.webp"
   - "images/products/p1.webp"
 
