@@ -52,73 +52,13 @@ enable = true
 preloader = "" # use .png , .svg or .gif format
 
 
-################################### English language #####################################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-# copyright
-copyright = "Designed By [Minerva](https://wa.me/+212698467182) & Developed By [Minerva Web](https://wa.me/+212698467182)"
-
-
-###################################### Navigation english ######################################
-
-# homepage section menu
-[[Languages.en.menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[Languages.en.menu.main]]
-name = "Products"
-url = "products/"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "Blog"
-url = "blog/"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "Review"
-pre = "#"
-url = "testimonial"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 5
-
-# footer menu
-[[Languages.en.menu.footer]]
-name = "Blog"
-url = "blog/"
-weight = 1
-
-[[Languages.en.menu.footer]]
-name = "Contact"
-url = "contact/"
-weight = 2
-
-[[Languages.en.menu.footer]]
-name = "Terms & Conditions"
-url = "terms-conditions/"
-weight = 3
-
-[[Languages.en.menu.footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
-weight = 4
-
 
 ################################### French language #####################################
 [Languages.fr]
-languageName = "Fr"
+languageName = "FR"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 1
 # copyright
 copyright = "Designed By [Minerva](https://wa.me/+212698467182) & Developed By [Minerva Web](https://wa.me/+212698467182)"
 
@@ -173,12 +113,13 @@ name = "Privacy Policy"
 url = "privacy-policy/"
 weight = 4
 
-################################### Arabic language #####################################
-[Languages.ar]
-languageName = "Ar"
-languageCode = "ar-ar"
-contentDir = "content/arabic"
-weight = 3
+
+################################### English language #####################################
+[Languages.en]
+languageName = "EN"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2
 # copyright
 copyright = "Designed By [Minerva](https://wa.me/+212698467182) & Developed By [Minerva Web](https://wa.me/+212698467182)"
 
@@ -186,49 +127,50 @@ copyright = "Designed By [Minerva](https://wa.me/+212698467182) & Developed By [
 ###################################### Navigation english ######################################
 
 # homepage section menu
-[[Languages.ar.menu.main]]
+[[Languages.en.menu.main]]
 name = "Home"
-url = "/"
+url = "en/"
 weight = 1
 
-[[Languages.ar.menu.main]]
+[[Languages.en.menu.main]]
 name = "Products"
 url = "products/"
 weight = 2
 
-[[Languages.ar.menu.main]]
+[[Languages.en.menu.main]]
 name = "Blog"
 url = "blog/"
 weight = 3
 
-[[Languages.ar.menu.main]]
+[[Languages.en.menu.main]]
 name = "Review"
 pre = "#"
 url = "testimonial"
 weight = 4
 
-[[Languages.ar.menu.main]]
+[[Languages.en.menu.main]]
 name = "Contact"
 url = "contact/"
 weight = 5
 
 # footer menu
-[[Languages.ar.menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Blog"
 url = "blog/"
 weight = 1
 
-[[Languages.ar.menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Contact"
 url = "contact/"
 weight = 2
 
-[[Languages.ar.menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Terms & Conditions"
 url = "terms-conditions/"
 weight = 3
 
-[[Languages.ar.menu.footer]]
+[[Languages.en.menu.footer]]
 name = "Privacy Policy"
 url = "privacy-policy/"
 weight = 4
+

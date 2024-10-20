@@ -1,18 +1,18 @@
 ############################# banner ############################
 banner:
   enable: true
-  title: "Believe in Technology, Make the change"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image: "images/products/p2.webp"
+  title: "<br><br><br><br>"
+  #content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image: "images/video/video.mp4"
   button:
-    enable: true
+    enable: false
     label: "Browse All Products"
     link: "products/"
 
 ############################# Feature ############################
 features:
   enable: true
-  title: "Our Core Features"
+  title: ""
   image: "images/products/p1.webp"
 
   # feature at the left of the image
@@ -49,9 +49,19 @@ features:
       icon: "tf-ion-ios-cart-outline"
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
+############################# Videos ############################
+videos:
+  enable: true
+  title: "Our customers"
+  image: "images/products/p1.webp"
+  video_1: "images/video/reel_1.mp4"
+  video_2: "images/video/reel_2.mp4"
+  video_3: "images/video/reel_3.mp4"
+
+
 ############################# promo ############################
 promo:
-  enable: true
+  enable: false
   image: "images/products/p2.webp"
   title: "Designed by professional , the benefit for creative gigs"
   content:
@@ -62,7 +72,7 @@ promo:
 
 ############################# About Product #######################
 about_product:
-  enable: true
+  enable: false
   title: "Why Choose Apple Watch"
   items:
     # about product item loop
