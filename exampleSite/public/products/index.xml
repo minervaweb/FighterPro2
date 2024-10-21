@@ -11,13 +11,6 @@
     <atom:link href="http://localhost:1313/vex/examplesite/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apple Watch</title>
-      <link>http://localhost:1313/vex/examplesite/products/product-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/vex/examplesite/products/product-1/</guid>
-      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Apple Watch</title>
       <link>http://localhost:1313/vex/examplesite/products/product-10/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       <guid>http://localhost:1313/vex/examplesite/products/product-10/</guid>
@@ -119,6 +112,13 @@
       <link>http://localhost:1313/vex/examplesite/products/product-2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       <guid>http://localhost:1313/vex/examplesite/products/product-2/</guid>
+      <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>gloves combat sparring</title>
+      <link>http://localhost:1313/vex/examplesite/products/product-1/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/vex/examplesite/products/product-1/</guid>
       <description>&lt;p&gt;Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.&lt;/p&gt;</description>
     </item>
     <item>

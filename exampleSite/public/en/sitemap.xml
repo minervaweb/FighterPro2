@@ -15,19 +15,6 @@
                 href="http://localhost:1313/vex/examplesite/products/"
                 />
   </url><url>
-    <loc>http://localhost:1313/vex/examplesite/products/product-1/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-fr"
-                href="http://localhost:1313/vex/examplesite/fr/products/product-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/vex/examplesite/products/product-1/"
-                />
-  </url><url>
     <loc>http://localhost:1313/vex/examplesite/products/product-10/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
@@ -107,6 +94,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="http://localhost:1313/vex/examplesite/products/product-2/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vex/examplesite/products/product-1/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="http://localhost:1313/vex/examplesite/fr/products/product-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/vex/examplesite/products/product-1/"
                 />
   </url><url>
     <loc>http://localhost:1313/vex/examplesite/blog/post-1/</loc>

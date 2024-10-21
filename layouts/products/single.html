@@ -19,8 +19,8 @@
         <h1 class="mb-4" id="product-name">{{ .Title }}</h1>
         <p class="price py-4">
           {{ if .Params.discount_price }}
-            <span class="discount-price">{{ site.Params.currency }}{{ .Params.discount_price }}</span>
-            <s class="original-price">{{ site.Params.currency }}{{ .Params.price }}</s>
+            <span class="price">{{ site.Params.currency }}{{ .Params.discount_price }}</span>
+            <s class="price">{{ site.Params.currency }}{{ .Params.price }}</s>
           {{ else }}
             {{ site.Params.currency }}{{ .Params.price }}
           {{ end }}
