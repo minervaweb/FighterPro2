@@ -2,10 +2,7 @@
 title: "VENUM ENSMBLE PINK"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
+  - "images/products/WhatsApp Image 2024-10-21 at 18.16.00.jpeg"
 
 # meta description
 description : "this is meta description"
