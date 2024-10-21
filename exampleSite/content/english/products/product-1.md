@@ -2,7 +2,7 @@
 title: "gloves combat sparring"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "WhatsApp Image 2024-10-21 at 18.31.41.jpeg"
+  - "images/products/p19.jpeg"
 
 gif:
   - "images/gif/g1.gif"
