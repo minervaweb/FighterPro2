@@ -1,11 +1,8 @@
 ---
-title: "Apple Watch"
+title: "gloves combat sparring"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
-  - "images/products/p1.webp"
+  - "WhatsApp Image 2024-10-21 at 18.31.41.jpeg"
 
 gif:
   - "images/gif/g1.gif"
@@ -14,8 +11,8 @@ gif:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "270"
+discount_price: "230"
 
 # product variation
 colors : ["black","white","gray", "green"]
