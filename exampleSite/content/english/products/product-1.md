@@ -7,6 +7,9 @@ images:
   - "images/products/p1.webp"
   - "images/products/p1.webp"
 
+gif:
+  - "images/gif/g1.gif"
+
 # meta description
 description : "this is meta description"
 

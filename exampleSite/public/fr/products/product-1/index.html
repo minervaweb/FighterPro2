@@ -143,98 +143,124 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
-        
+      
+      <div class="col-md-6 mb-4 mb-md-0">
         <div class="product-image-slider">
           
           <div data-image="http://localhost:1313/vex/examplesite/images/products/p1.webp">
-            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="product-image">
+            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="Product image Images/Products/P1.webp">
           </div>
           
           <div data-image="http://localhost:1313/vex/examplesite/images/products/p1.webp">
-            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="product-image">
+            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="Product image Images/Products/P1.webp">
           </div>
           
           <div data-image="http://localhost:1313/vex/examplesite/images/products/p1.webp">
-            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="product-image">
+            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="Product image Images/Products/P1.webp">
           </div>
           
           <div data-image="http://localhost:1313/vex/examplesite/images/products/p1.webp">
-            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="product-image">
+            <img class="img-fluid w-100" src="http://localhost:1313/vex/examplesite/images/products/p1.webp" alt="Product image Images/Products/P1.webp">
           </div>
           
         </div>
       </div>
-      <div class="col-lg-6 col-md-7 offset-lg-1">
 
-        
+      
+      <div class="col-md-6">
         <h1 class="mb-4" id="product-name">Apple Watch</h1>
-
-        
-        <p class="price py-4"> Dh 25.00
-        <s class="price"> Dh 30.00</s>
+        <p class="price py-4">
+          
+            <span class="discount-price"> Dh 25.00</span>
+            <s class="original-price"> Dh 30.00</s>
+          
         </p>
 
-        
-
-
-        
-
-        <div class="content"><p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</p>
-</div>
-
-        
-        <div class="col-lg-12">
-          <h2 class="font-weight-bold mb-4">Order Now!</h2>
-          <div id="errorMessage" class="error"></div>
-          <form id="clientForm" onsubmit="sendWhatsAppMessage(event)" class="row">
-            <div class="col-lg-12 mb-3">
+        <form id="clientForm" onsubmit="sendWhatsAppMessage(event)" class="row" novalidate>
+          <div class="col-md-12 mb-3">
+            <div class="form-row">
               
-              <div class="row">
-                <div class="col-6 form-group">
-                  <label for="colors"><strong>Colors:</strong></label>
-                  <select id="colors" class="form-control mb-3">
-                    
-                    <option value="black">Black</option>
-                    
-                    <option value="white">White</option>
-                    
-                    <option value="gray">Gray</option>
-                    
-                  </select>
-                </div>
-                
-                
-                <div class="col-6 form-group">
-                  <label for="sizes"><strong>Sizes:</strong></label>
-                  <select id="sizes" class="form-control mb-3">
-                    
-                    <option value="small">Small</option>
-                    
-                    <option value="medium">Medium</option>
-                    
-                    <option value="large">Large</option>
-                    
-                  </select>
-                </div>
+              <div class="form-group col-md-6">
+                <label for="colors"><strong>Colors:</strong></label>
+                <select id="colors" class="form-control" required>
+                  <option value="" disabled selected>Select a color</option>
+                  
+                  <option value="black">Black</option>
+                  
+                  <option value="white">White</option>
+                  
+                  <option value="gray">Gray</option>
+                  
+                </select>
+              </div>
+              
+              
+              <div class="form-group col-md-6">
+                <label for="sizes"><strong>Sizes:</strong></label>
+                <select id="sizes" class="form-control" required>
+                  <option value="" disabled selected>Select a size</option>
+                  
+                  <option value="small">Small</option>
+                  
+                  <option value="medium">Medium</option>
+                  
+                  <option value="large">Large</option>
+                  
+                </select>
               </div>
               
             </div>
-            <div class="col-lg-6 mb-3">
-              <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name" required>
-            </div>
-            <div class="col-lg-6 mb-3">
-              <input type="text" id="number" class="form-control mb-2" id="email" name="email" placeholder="Enter your 10-digit phone number" required pattern="\d{10}">
-            </div>
-            <div class="col-12 mb-3">
-              <input type="text" id="address" class="form-control mb-2" placeholder="Enter Your Adress" required>
-            </div>
-            <div class="col-12 text-right">
-              <button type="submit" onclick="sendWhatsAppMessage(event)"  class="btn btn-main btn-main-sm">Send Now</button>
-            </div>
-          </form>
-        </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="tel" id="number" class="form-control" name="phone" placeholder="Enter your 10-digit phone number" required pattern="\d{10}" maxlength="10">
+          </div>
+          <div class="col-12 mb-3">
+            <input type="text" id="address" class="form-control" placeholder="Enter Your Address" required>
+          </div>
+          <div class="col-12 text-right">
+            <button type="submit" class="btn btn-main btn-main-sm">Send Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
+    
+    <div class="row mt-4">
+      <div class="col-md-8">
+        <h2 class="font-weight-bold">Product Description</h2>
+        <div class="content"><p>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center mb-4">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;">
+          <ol class="carousel-indicators">
+            
+          </ol>
+
+          <div class="carousel-inner">
+            
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>

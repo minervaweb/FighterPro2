@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Loop through each Markdown file in the current directory
+for file in product-*.md; do
+  # Extract the number from the file name
+  number=$(echo "$file" | grep -o '[0-9]*')
+
+  # Initialize a flag to track if all lines match
+  all_match=true
+
+  # Check all lines that match the pattern
+  while IFS= read -r line; do
+    if [[ $line =~ images/products/p([0-9]+)\.webp ]]; then
+      # Extract the number from the line
+      line_number="${BASH_REMATCH[1]}"
+      if [[ "$line_number" != "$number" ]]; then
+        all_match=false
+        break
+      fi
+    fi
+  done < <(grep "images/products/p" "$file")
+
+  # Print result based on the flag
+  if $all_match; then
+    echo "Good: $file"
+  else
+    echo "Check failed for: $file"
+  fi
+done

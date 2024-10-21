@@ -1,5 +1,5 @@
 ---
-title: "All latest Smart Watch"
+title: "All latest Products"
 description : "this is a meta description"
 draft: false
 ---

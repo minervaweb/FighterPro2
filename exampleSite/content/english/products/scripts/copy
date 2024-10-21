@@ -1,0 +1,42 @@
+#!/bin/bash
+
+: <<'MAIN'
+This is a documentation for this shell script.
+You can write as many lines as you like here.
+
+./copy X Y
+@X: is the number of new files
+@Y: is the number that the script will start
+counting from it to name the new files
+
+variables
+---------
+base_name: the name of the file to copy
+MAIN
+
+# Check if both arguments are provided
+if [ -z "$1" ] || [ -z "$2" ]; then
+    echo "Please provide two arguments: the number of copies (X) and the starting number (Y)."
+    exit 1
+fi
+
+# The number of copies to make
+X=$1
+
+# The starting number
+Y=$2
+
+# The base file name
+base_name="product-1.md"
+
+# Extract the base name and extension
+base="${base_name%-*}"
+ext="${base_name##*.}"
+
+# Loop to create the copies
+for ((i=0; i<X; i++)); do
+    new_file="${base}-$((Y + i)).${ext}"
+    cp "$base_name" "$new_file"
+    echo "Created $new_file"
+done
+
