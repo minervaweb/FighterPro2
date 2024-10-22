@@ -787,3 +787,19 @@ textarea.form-control {
   object-fit: cover; /* Maintain aspect ratio and cover the container */
   transform: translate(-50%, -50%); /* Center the image */
 }
+.image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 100%; /* Creates a square aspect ratio */
+  overflow: hidden; /* Ensures content does not overflow */
+}
+
+.image-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%; /* Ensure the image takes full width */
+  height: 100%; /* Ensure the image takes full height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  transform: translate(-50%, -50%); /* Center the image */
+}
